@@ -8,7 +8,7 @@ This Device is available from ControlEverything.com [SKU:  HP203B_I2CS]
 
 https://www.controleverything.com/content/Catchall?sku=HP203B_I2CS
 
-This Sample code can be used with Raspberry pi, Arduino and Particle.
+This Sample code can be used with Raspberry pi, Arduino, Particle and Beaglebone Black.
 
 ## Java
 Download and install pi4j library on Raspberry pi. Steps to install pi4j are provided at:
@@ -47,4 +47,17 @@ Download (or git pull) the code and double click the file to run the program.
 
 Compile and upload the code on Arduino IDE and see the output on Serial Monitor.
 
+
+## C
+
+Download (or git pull) the code in Beaglebone Black.
+
+Compile the c program.
+```cpp
+$>gcc HP203B.c -o HP203B
+```
+Run the c program.
+```cpp
+$>./HP203B
+```
 #####The code output is the altitude in meters, pressure in Pa and temperature reading in degree celsius and fahrenheit
